@@ -7,11 +7,11 @@ A container is a manner of running applications quickly, regardless of environme
 
 >**To learn more about containers, Docker, and both of their abilities, visit the links below:**
 >
->[Docker - What is a container](docker.com/resources/what-container/)
+>[Docker - What is a container](https://docker.com/resources/what-container/)
 >
->[Docker Engine](docker.com/products/container-runtime/)
+>[Docker Engine](https://docker.com/products/container-runtime/)
 >
->[Google Cloud - What are Containers?](cloud.google.com/learn/what-are-containers)
+>[Google Cloud - What are Containers?](https://cloud.google.com/learn/what-are-containers)
 
 #### DevContainers:
 
@@ -23,9 +23,9 @@ A DevContainer is a Docker container configured to provide a fully functional an
 >
 >[GitHub Docs - About dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)
 >
->[Development Containers](containers.dev)
+>[Development Containers](https://containers.dev)
 >
->[VSCode - Create a Dev Container](code.visualstudio.com/docs/devcontainers/create-dev-container)
+>[VSCode - Create a Dev Container](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
 
 ### Configuration
 To configure the DevContainer, the following steps were taken:
