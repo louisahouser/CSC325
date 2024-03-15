@@ -129,7 +129,7 @@ If any errors occur, the first step before diving into debugging should be ensur
     
     then type:
 
-            flutte run -d web-server
+            flutter run -d web-server
 
 4. After the terminal states the application is running and it is possible to make hot restart changes, go to the ports tab.
 
