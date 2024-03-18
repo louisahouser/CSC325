@@ -19,7 +19,15 @@ Overall, version control provides an incredible sense of control over the config
 
 ### Version Control System Used
 
-The version control system chosen for this project is GitHub. This system was primarily chosen over others due to its easy integration with VS Code. 
+The version control system chosen for this project is Git. This system was primarily chosen over others due to its easy integration with VS Code, and open-source software.
+
+For more information about version control systems:
+
+> [GitHub Docs - About Git](https://docs.github.com/en/get-started/using-git/about-git)
+>
+>[GitLab - What is Git Version Control](https://about.gitlab.com/topics/version-control/what-is-git-version-control/)
+>
+>[Perforce - Other Types of Version Control](https://www.perforce.com/blog/vcs/what-is-version-control#:~:text=Here%20is%20a%20summary%20of%20some%20of%20the,tool%20used%20for%20version%20control.%20...%20More%20items)
 
 ### Repository Setup
 
