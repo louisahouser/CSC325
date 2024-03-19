@@ -38,5 +38,6 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{secrets.DOCKER_IMAGE_YML}}
+        github_token: ${{secrets.GITHUB_TOKEN}}
+      #  github_token: ${{secrets.DOCKER_IMAGE_YML}}
         publish_dir: ./demoApp/build/web/
