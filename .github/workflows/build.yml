@@ -36,7 +36,7 @@ jobs:
       run: flutter build web
       
     - name: Deploy
-      uses: actions/github-script@v5
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{secrets.DOCKER_IMAGE_YML}}
         publish_dir: ./demoApp/build/web/
