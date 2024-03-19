@@ -17,9 +17,12 @@ jobs:
     - name: Build the Docker image
       working-directory: ./.devcontainer
       run: docker build . --file Dockerfile 
-      ##--tag mcr.microsoft.com/devcontainers/base:jammy:$(date +%s)
- ##     run: docker buildx build
-      
+
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: 'stable'
+        
     - name: install app dependencies
       working-directory: ./randomNumGen
       run: flutter pub get
