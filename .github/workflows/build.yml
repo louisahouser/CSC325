@@ -15,10 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag mcr.microsoft.com/devcontainers/base:jammy
+##      run: docker build . --file Dockerfile --tag mcr.microsoft.com/devcontainers/base:jammy:$(date +%s)
+      run: docker build -f /.devcontainer/Dockerfile
       
-      ##my-image-name:$(date +%s)
-
     - name: install app dependencies
       working-directory: ./app
       run: flutter pub get
