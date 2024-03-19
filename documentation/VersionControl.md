@@ -120,6 +120,65 @@ Common commands include:
 > *NOTE:*
 >
 > After the merge command is run, the branch, in this case branchOne, still exists but its changes have now been implemented into the current or main branch.
+
+
+
+### Challenges and Solutions
+
+Common commands include:
+    
+    Command Line Commits:
+    ---------------------
+    git add file1                   // selects file to be added to repository
+    
+    git commit -m "added file1"     // commits file with a meaningful message
+    
+    git push                        // pushes and syncs file to repository
+
+
+    Command Line Repository Cloning:
+    --------------------------------
+    git clone https://github.com/louisahouser/CSC325.git    
+
+
+    Command Line Retrieval of Commit ID:
+    ------------------------------------
+    git log --oneline               // displays all commits and their IDs
+
+
+    Command Line Reset Command:
+    ---------------------------
+    git reset IDnumber              // returns to a previous commit
+
+    git reset IDnumber --hard       // undo commit and any changes made after 
+
+
+    Command Line Revert Command:
+    ----------------------------
+    git revert IDnumber             // undo current commit and revert to previous commit
+
+    Command Line Branch Merging Command:
+    ------------------------------------
+    git status                      // displays nstatus of current branch
+
+    git checkout master             // switches to the specified branch being merged with
+
+    git merge branchOne             // merge branch with the branch currently "inside"
+
+
+
+> *NOTE:* 
+>
+> - The revert command differs from the reset in that it does not remove previous commit logs, rather it creates a new one.
+> 
+> - git reset will undo changes up to the state *OF* the given commit ID
+>
+> - git revert will undo changes up to the state *BEFORE* the given commit ID
+
+
+> *NOTE:*
+>
+> After the merge command is run, the branch, in this case branchOne, still exists but its changes have now been implemented into the current or main branch.
 >
 > For a more detailed merge instruction, click [here](https://www.howtogeek.com/853521/git-merge/#preparing-to-merge-a-branch-in-git)!
 
@@ -171,3 +230,6 @@ Speaking from experience, using a IDE such as VS Code makes using Git ten times 
 ### Conclusion
 
 Git is a great beginner version control system because there is so much documentation online, and it is a system that one can stick with even after more experience. It is easy to download on the [Git](https://git-scm.com/) website, and it is open source. Not only is it well integrated into VS Code, but it allows for easier automation. 
+
+Git is a great beginner version control system because there is so much documentation online, and it is a system that one can stick with even after more experience. It is easy to download on the [Git](https://git-scm.com/) website, and it is open source. Not only is it well integrated into VS Code, but it allows for easier automation. 
+
