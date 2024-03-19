@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build /.devcontainer/Dockerfile --file /.devcontainer/Dockerfile --tag my-image:$(date +%s)
+      run: docker build --file /.devcontainer/Dockerfile --tag my-image:$(date +%s)
       ##--tag mcr.microsoft.com/devcontainers/base:jammy:$(date +%s)
  ##     run: docker buildx build
       
