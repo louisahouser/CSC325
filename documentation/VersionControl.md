@@ -231,5 +231,3 @@ Speaking from experience, using a IDE such as VS Code makes using Git ten times 
 
 Git is a great beginner version control system because there is so much documentation online, and it is a system that one can stick with even after more experience. It is easy to download on the [Git](https://git-scm.com/) website, and it is open source. Not only is it well integrated into VS Code, but it allows for easier automation. 
 
-Git is a great beginner version control system because there is so much documentation online, and it is a system that one can stick with even after more experience. It is easy to download on the [Git](https://git-scm.com/) website, and it is open source. Not only is it well integrated into VS Code, but it allows for easier automation. 
-
