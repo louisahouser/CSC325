@@ -51,17 +51,86 @@ Adopted conventions include:
 
 - Commit messages follow a similar structure 
     > "added a version control markdown file"
-    
-    By starting each message with "added", it sets the message up to be more descriptive and helpful to the user.
+    >
+    > "updated naming conventions"
 
-- 
+    By starting each message with "added" or "updated", it sets the message up to be more descriptive and helpful to the user.
+
+- Naming conventions follow as below:
+    > firstDemoApp
+    
+    Each file or folder will typically have the first word all lowercase, with each word following having its first initial capitalized, and no spaces between words. 
+
+- Very Frequent Version Updates
+    
+    Though generally just considered good practice anyways, frequent commits to repository are in practice. This is especially important when switching tasks, taking time to go look at another window, or any other shift in attention. 
+
 
 ### Common Commands and Usage
+
+Common commands include:
+    
+    Command Line Commits:
+    ---------------------
+    git add file1                   // selects file to be added to repository
+    
+    git commit -m "added file1"     // commits file with a meaningful message
+    
+    git push                        // pushes and syncs file to repository
+
+
+    Command Line Repository Cloning:
+    --------------------------------
+    git clone https://github.com/louisahouser/CSC325.git    
+
+
+    Command Line Retrieval of Commit ID:
+    ------------------------------------
+    git log --oneline               // displays all commits and their IDs
+
+
+    Command Line Reset Command:
+    ---------------------------
+    git reset IDnumber              // returns to a previous commit
+
+    git reset IDnumber --hard       // undo commit and any changes made after 
+
+
+    Command Line Revert Command:
+    ----------------------------
+    git revert IDnumber             // undo current commit and revert to previous commit
+
+    Command Line Branch Merging Command:
+    ------------------------------------
+    git status                      // displays nstatus of current branch
+
+    git checkout master             // switches to the specified branch being merged with
+
+    git merge branchOne             // merge branch with the branch currently "inside"
+
+
+
+> *NOTE:* 
+>
+> - The revert command differs from the reset in that it does not remove previous commit logs, rather it creates a new one.
+> 
+> - git reset will undo changes up to the state *OF* the given commit ID
+>
+> - git revert will undo changes up to the state *BEFORE* the given commit ID
+
+
+> *NOTE:*
+>
+> After the merge command is run, the branch, in this case branchOne, still exists but its changes have now been implemented into the current or main branch.
+
+
+
+### Challenges and Solutions
 
 Changes should be made in the version control system, and then implemented to the production system through the automated pipeline. 
 
 Changes should be committed frequently, and branching should be left avoided.
 
-### Challenges and Solutions
-
 ### Conclusion
+
+cum
