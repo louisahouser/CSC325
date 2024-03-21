@@ -15,10 +15,10 @@ jobs:
     permissions: 
       contents: write
 
-    defaults:
+  #  defaults:
 
-      run:
-        working-directory: /demoApp
+#      run:
+ #       working-directory: ./demoApp
 
     steps:
 #    - uses: actions/checkout@v3
