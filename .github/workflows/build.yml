@@ -38,9 +38,17 @@ jobs:
       working-directory: ./demoApp
       run: flutter build web
       
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+#    - name: Deploy
+#      uses: peaceiris/actions-gh-pages@v3
+#      with:
+#        github_token: ${{secrets.GITHUB_TOKEN}}
+#      #  github_token: ${{secrets.DOCKER_IMAGE_YML}}
+#        publish_dir: ./demoApp/build/web/
+
+    - name: Deploy2
+      uses: FirebaseExtended/action-hosting-deploy@v0
       with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-      #  github_token: ${{secrets.DOCKER_IMAGE_YML}}
-        publish_dir: ./demoApp/build/web/
+        repoToken: "${{ secrets.GITHUB_TOKEN }}"
+        firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+        expires: 30d
+        projectId: demoApp
