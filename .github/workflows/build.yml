@@ -15,16 +15,11 @@ jobs:
     permissions: 
       contents: write
 
-  #  defaults:
-
-#      run:
- #       working-directory: ./demoApp
-
     steps:
-#    - uses: actions/checkout@v3
-#    - name: Build the Docker image
-#      working-directory: ./.devcontainer
-#      run: docker build . --file Dockerfile 
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      working-directory: ./.devcontainer
+      run: docker build . --file Dockerfile 
 
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
