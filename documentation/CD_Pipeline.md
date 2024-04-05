@@ -4,14 +4,6 @@
 
 A Continuous Integration/Continuous Delivery (CI/CD) pipeline is a set of automated processes that enable developers to deliver software updates more frequently and securely.
 
-There are typically six components to a CI/CD pipeline:
-
-* Source Control Management (SCM)
-* Automated Testing
-* Artifact Repository
-* Deployment Automation
-* Monitoring and Feedback
-
 This manual will talk about these components more as it progresses.
 
 There are generally three main stages to a CI/CD pipelines: Build, Test, Deploy. However, you may see some companies split them into five or more steps as seen below, depending on the use they want from their pipeline.
@@ -130,6 +122,7 @@ The staging environment closely resembles the production environment but may hav
 After successful testing and approval, the pipeline automatically deploys the application to the production environment.
 Deployment scripts within the CI/CD configuration automate the process of provisioning infrastructure, configuring services, and deploying the application.
 The production environment is the live environment where end-users interact with the application.
+
 **8. Monitoring and Feedback:**
 Continuous monitoring of the deployed application provides feedback to developers and operations teams.
 Monitoring tools detect and alert on any issues or anomalies in production, enabling rapid response and troubleshooting.
