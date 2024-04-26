@@ -6,7 +6,7 @@ Continuous Integration and Continuous Deployment/Delivery (CI/CD) pipelines serv
 
 ### DevContainer Environment
 
-The DevContainer was created to prevent the common issue of, "Well it works on my computer." By using this, the application runs regardless of environment, completely standardizing it for every user. For this project, Docker, an open-platform was used, which runs packages inside containers. Visual Studio Code is the IDE used, where the .devcontainer, using Ubuntu, and DockerFile were built on, which, through using provides complete customability. Not only are all of the tools and dependencies installed for the developer, but certain features such as the Flutter SDK were able to be selected to be installed as well, cutting down manual labor and time. 
+The DevContainer was created to prevent the common issue of, "Well it works on my computer." By using this, the application runs regardless of environment, completely standardizing it for every user. For this project, Docker, an open-platform was used, which runs packages inside containers. Visual Studio Code is the IDE used, where the .devcontainer, which uses Ubuntu, and DockerFile were built on, which, through using provides complete customability. Not only are all of the tools and dependencies installed for the developer, but certain features such as the Flutter SDK were able to be selected to be installed as well, cutting down manual labor and time. 
 
 ### Source Code Version Control Tools
 
