@@ -60,4 +60,4 @@ For the Flutter web application, two different apps were created. The first was 
 
 ### Conclusion
 
-This project was very beneficial as it provided the ability to learn Git, practice continuous integration, create DevContainers, get exposure to Docker, and learn the fundamentals of automation. The pipeline could still be improved by finding the issue that causes the GitHub Pages to fully render, but leaves the link unrendered.
+The pipeline could still be improved by finding the issue that causes the GitHub Pages to fully render, but leaves the link unrendered. This project was very beneficial as it provided the ability to learn Git, practice continuous integration, create DevContainers, get exposure to Docker, and learn the fundamentals of automation. 
